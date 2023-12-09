@@ -25,4 +25,6 @@ git commit => save in local repo
 
 git log => to see all commits done by anyone
 
-git checkout => revert back to last position in our local repo
+git diff filename => to see difference b/w last savepoint and current condition of file
+
+git checkout filename => revert back to savepoint
