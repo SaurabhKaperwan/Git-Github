@@ -39,3 +39,34 @@ creating a remote repo and tranferring all commits:
 git remote add origin repo-addr
 
 origin => name of the remote(can be anything)
+
+github password support is discontinued.
+
+Therefore we use PAT(Personal Access Token)
+git remote set-url origin https://token@github.com/SaurabhKaperwan/repo-name
+
+
+push local repo on remote repo
+git push -u origin master
+
+master => name of branch
+
+master branch => main branch
+
+local repo is the git file
+
+remote repo is github
+
+
+Gitignore:
+----------
+
+touch .gitignore
+
+Remove all files from staging area:
+git rm --cached -r .
+
+-r flag for recursive
+-f force removal
+
+

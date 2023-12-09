@@ -1,0 +1,3 @@
+secret.txt
+#All the files which have .c extension
+*.c
