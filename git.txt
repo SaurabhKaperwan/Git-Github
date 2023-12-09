@@ -6,9 +6,23 @@ create savepoints
 github:
 GUI
 
-git init => initialize git
+git init => initialize git repo (now our directory becomes working directory)
 
 ls -a => to see hidden files
 
 git status => to see which files are tracked(staging area)
 and which files are not tracked
+
+git add filename => to track or add it to staging area
+
+git add . => add everything directory in staging area
+
+git add => put files in staging area
+
+git commit -m "message" => to commit changes
+
+git commit => save in local repo
+
+git log => to see all commits done by anyone
+
+git checkout => revert back to last position in our local repo
