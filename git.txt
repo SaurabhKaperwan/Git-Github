@@ -1,0 +1,14 @@
+git:
+version control
+to track changes
+create savepoints
+
+github:
+GUI
+
+git init => initialize git
+
+ls -a => to see hidden files
+
+git status => to see which files are tracked(staging area)
+and which files are not tracked
