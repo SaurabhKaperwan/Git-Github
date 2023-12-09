@@ -32,3 +32,10 @@ git checkout filename => revert back to savepoint
 For remote repo:
 ----------------
 Use github
+
+push a existing repo from command line:
+
+creating a remote repo and tranferring all commits:
+git remote add origin repo-addr
+
+origin => name of the remote(can be anything)
