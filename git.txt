@@ -70,3 +70,35 @@ git rm --cached -r .
 -f force removal
 
 
+Clonning:
+---------
+
+clone a remote repo & store files in local working directory
+
+git clone repo-url
+
+u can use :
+git log
+
+Branching:
+----------
+when we want to do experiment we make a different branch.
+
+Create a branch:
+git branch branch-name
+
+Switch from main branch to different branch:
+
+git checkout branch-name
+
+Show branch name u r working:
+git branch
+
+
+Merging Branch:
+---------------
+
+Go back to master:
+
+git checkout master
+
