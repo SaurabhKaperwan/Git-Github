@@ -98,7 +98,8 @@ git branch
 Merging Branch:
 ---------------
 
-Go back to master:
+Go back to main:
 
-git checkout master
+git checkout main
 
+git merge branch-name
