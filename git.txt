@@ -3,9 +3,8 @@ version control
 to track changes
 create savepoints
 
-github:
-GUI
-
+This is local implementaion of git:
+-----------------------------------
 git init => initialize git repo (now our directory becomes working directory)
 
 ls -a => to see hidden files
@@ -28,3 +27,8 @@ git log => to see all commits done by anyone
 git diff filename => to see difference b/w last savepoint and current condition of file
 
 git checkout filename => revert back to savepoint
+
+
+For remote repo:
+----------------
+Use github
