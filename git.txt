@@ -43,7 +43,12 @@ origin => name of the remote(can be anything)
 github password support is discontinued.
 
 Therefore we use PAT(Personal Access Token)
-git remote set-url origin https://token@github.com/SaurabhKaperwan/repo-name
+
+This command adds a remote named "origin" to your Git repository.
+git remote add origin https://token@github.com/SaurabhKaperwan/Web-Dev.git
+
+This command changes the URL of the existing remote named "origin."
+git remote set-url origin https://token@github.com/SaurabhKaperwan/repo-name.git
 
 
 push local repo on remote repo
@@ -62,6 +67,15 @@ Gitignore:
 ----------
 
 touch .gitignore
+
+for file:
+filename.txt
+
+for folder:
+folder/subfolder
+
+for certain type of file
+*.txt
 
 Remove all files from staging area:
 git rm --cached -r .
@@ -103,3 +117,15 @@ Go back to main:
 git checkout main
 
 git merge branch-name
+
+
+Forking and Pull Request:
+-------------------------
+For collabaration
+
+Fork:
+-----
+Copy a remote repo(github) in new remote repo(github)
+
+pull request:
+make a request to merge changes in main repo
